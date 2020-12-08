@@ -39,6 +39,11 @@ const webpackConfig = (env: {
           },
         ],
       },
+      {
+        test: /\.js/,
+        enforce: "pre",
+        loader: "source-map-loader",
+      },
     ],
   },
   plugins: [
