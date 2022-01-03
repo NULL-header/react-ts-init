@@ -22,6 +22,7 @@ const webpackConfig = (env: {
         loader: "ts-loader",
         options: {
           transpileOnly: true,
+          configFile: "tsconfig.build.json",
         },
         exclude: /public/,
       },
