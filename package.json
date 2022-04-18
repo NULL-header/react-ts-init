@@ -9,7 +9,7 @@
     "build": "webpack --mode production --env.production --progress",
     "lint": "eslint src/*.ts*",
     "lint:fix": "eslint src/*.ts* --fix",
-    "dev": "webpack-dev-server --mode development --env.development --open --hot --progress"
+    "dev": "webpack-dev-server --mode development --env development --open --hot --progress"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.13.0",
@@ -33,7 +33,6 @@
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-standard": "^5.0.0",
     "fork-ts-checker-webpack-plugin": "^7.2.6",
-    "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "immutability-helper": "^3.1.1",
     "jest": "^27.5.1",
